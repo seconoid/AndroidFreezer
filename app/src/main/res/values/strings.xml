@@ -2,6 +2,21 @@
     <string name="app_name">AndroidFreezer</string>
     <string name="action_settings">Settings</string>
     <string name="title_InsertActivity">登録画面</string>
+    
+    <!-- ボタン -->
     <string name="lbl_btnToInsert">登録画面へ</string>
     <string name="lbl_btnToMain">TOPへ</string>
+    <string name="lbl_btnToList">一覧へ</string>
+    <string name="lbl_insertBtn">登録</string>
+    
+    <!-- Tvラベル -->
+    <string name="lbl_foodNameTv">食材名</string>
+    <string name="lbl_foodAmountTv">個数</string>
+    <string name="lbl_foodLimitTv">消費期限</string>
+    <string name="title_activity_list">ListActivity</string>
+
+
+    <!-- 日付 -->
+    <string name="foodLimitTv">2016年1月31日</string>
+    <string name="title_activity_update">UpdateActivity</string>
 </resources>

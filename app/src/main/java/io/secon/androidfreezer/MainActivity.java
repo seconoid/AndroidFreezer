@@ -7,13 +7,13 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+
 public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     @Override
@@ -36,11 +36,15 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClick(View view){
-        switch (view.getId()){
+    public void onClick(View v){
+        switch (v.getId()){
             case R.id.btnToInsert:
-                Intent intent = new Intent(this, InsertActivity.class);
-                startActivity(intent);
+                Intent insertIntent = new Intent(MainActivity.this, InsertActivity.class);
+                startActivity(insertIntent);
+                break;
+            case R.id.btnToList:
+                Intent listIntent = new Intent(MainActivity.this, ListActivity.class);
+                startActivity(listIntent);
                 break;
         }
     }

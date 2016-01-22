@@ -9,12 +9,14 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class FoodOpenHelper extends SQLiteOpenHelper {
 
-    public  FoodOpenHelper(Context context) { super(context, "FoodDB", null, 1); }
+    public  FoodOpenHelper(Context context) {
+        super(context, "FoodDB", null, 1);
+    }
 
     // データベースを作成
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table food(" + " foodName text not null," + "amount real," + "limit date" + ");");
+        db.execSQL("create table food(" + "id integer primary key," + "foodName text not null," + "amount text," + "eatLimit text" + ");");
     }
 
     // バージョンチェック

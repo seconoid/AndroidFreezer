@@ -13,4 +13,11 @@
         android:text="@string/lbl_btnToInsert"
         android:id="@+id/btnToInsert"
         android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_btnToList"
+        android:id="@+id/btnToList"
+        android:onClick="onClick"/>
 </LinearLayout>
