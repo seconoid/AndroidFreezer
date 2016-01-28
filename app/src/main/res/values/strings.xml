@@ -13,7 +13,7 @@
     <string name="lbl_foodNameTv">食材名</string>
     <string name="lbl_foodAmountTv">個数</string>
     <string name="lbl_foodLimitTv">消費期限</string>
-    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_list">食材リスト</string>
 
 
     <!-- 日付 -->
